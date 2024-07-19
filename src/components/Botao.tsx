@@ -2,7 +2,7 @@ import { Button, ITextProps } from "native-base";
 import { ReactNode } from "react";
 
 interface BotaoProps extends ITextProps{
-    onPress: () => void,
+    onPress?: () => void, // ? -> propriedade opcional
     children: ReactNode
 }
 
